@@ -1,4 +1,51 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: Mohamad
+* Created on: Sep 2023
 * This file contains the CSS for index.html
 */
+
+.mdl-layout-title {
+  text-align: left;
+}
+
+.timeline-list {
+  text-align: left;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  background-color: bisque;
+  margin: auto;
+  width: 400px;
+}
+
+.demo-list-icon {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  margin: 0;
+}
+
+.mdl-list__item {
+  margin: 0;
+  padding: 16px;
+
+}
+
+.stevejobs {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  height: auto;
+  width: 300px;
+
+}
+
+.history {
+  background-color: bisque;
+  margin: auto;
+  width: 500px;
+}
+
+body {
+  background-color: darkseagreen;
+}
+

@@ -7,17 +7,67 @@
   <meta name="author" content="Mohamad">
   <meta name="viewport" conent="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.lime-green.min.css" />
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-green.min.css" />
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+  <link rel="stylesheet" href="css/style.css">
   <link rel="manifest" href="site.webmanifest" />
-  <title>Title</title>
+  <title>Steve Jobs</title>
 </head>
 <body>
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-  <p>Paragraph</p>
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <!-- Simple header with fixed tabs. -->
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
+                mdl-layout--fixed-tabs">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">Steve Jobs</span>
+      </div>
+      <!-- Tabs -->
+      <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+        <a href="#fixed-tab-1" class="mdl-layout__tab is-active">Time line</a>
+        <a href="#fixed-tab-2" class="mdl-layout__tab">Facts</a>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">Steve Jobs</span>
+    </div>
+    <main class="mdl-layout__content">
+      <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+        <div class="page-content"><!-- Your content goes here -->
+          <div class="history">
+          <!--Picture of Steve Jobs-->
+          <img src="stevejobsWborder.png" alt="Steve Jobs" class="stevejobs">
+          <!--List-->
+          <div class="timeline-list">
+          <ul class="demo-list-icon mdl-list">
+            <li class="mdl-list__item">
+              <span class="mdl-list__item-primary-content">
+                &#x2022; Bryan Cranston
+              </span>
+            </li>
+            <li class="mdl-list__item">
+              <span class="mdl-list__item-primary-content">
+                &#x2022; Aaron Paul
+              </span>
+            </li>
+            <li class="mdl-list__item">
+              <span class="mdl-list__item-primary-content">
+                &#x2022; Bob Odenkirk
+              </span>
+            </li>
+          </ul>
+          </div>
+          </div>
+        </div>
+      </section>
+      <section class="mdl-layout__tab-panel" id="fixed-tab-2">
+        <div class="page-content"><!-- Your content goes here --></div>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
