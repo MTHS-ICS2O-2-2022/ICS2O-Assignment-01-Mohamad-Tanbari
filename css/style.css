@@ -10,8 +10,8 @@
 .timeline-list {
   text-align: left;
   display: flex;
-  justify-content: left;
-  align-items: left;
+  justify-content: flex-start;
+  align-items: flex-start;
   background-color: bisque;
   margin: auto;
   width: 400px;
@@ -43,6 +43,15 @@
   background-color: bisque;
   margin: auto;
   width: 500px;
+  text-align: left;
+}
+
+.stevejobsdescription {
+  text-align: center;
+}
+
+.timelineheader {
+  text-align: center;
 }
 
 body {
