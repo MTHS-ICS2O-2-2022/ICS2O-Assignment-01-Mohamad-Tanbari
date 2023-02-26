@@ -14,7 +14,7 @@
   align-items: flex-start;
   background-color: bisque;
   margin: auto;
-  width: 400px;
+  width: 600px;
 }
 
 .demo-list-icon {
@@ -26,8 +26,6 @@
 
 .mdl-list__item {
   margin: 0;
-  padding: 16px;
-
 }
 
 .stevejobs {
@@ -35,14 +33,14 @@
   margin: 0 auto;
   padding: 20px;
   height: auto;
-  width: 300px;
+  width: 400px;
 
 }
 
 .history {
   background-color: bisque;
   margin: auto;
-  width: 500px;
+  width: 750px;
   text-align: left;
 }
 
