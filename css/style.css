@@ -37,18 +37,19 @@
 
 }
 
-.history {
+.listbody {
   background-color: bisque;
   margin: auto;
   width: 750px;
   text-align: left;
+  padding: 20px;
 }
 
 .stevejobsdescription {
   text-align: center;
 }
 
-.timelineheader {
+.listheader {
   text-align: center;
 }
 
