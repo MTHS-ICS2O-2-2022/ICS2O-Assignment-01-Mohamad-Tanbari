@@ -20,7 +20,7 @@
 .demo-list-icon {
   display: flex;
   flex-direction: column;
-  align-items:flex-start;
+  align-items: flex-start;
   margin: 0;
 }
 
@@ -34,7 +34,6 @@
   padding: 20px;
   height: auto;
   width: 400px;
-
 }
 
 .listbody {
@@ -56,4 +55,3 @@
 body {
   background-color: darkseagreen;
 }
-
